@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Class nhiệt độ </h1>
+<button onclick="let t=parseFloat(prompt('Nhập nhiệt độ (C)'));if(t>-273){ tem3=new temperatureC(t)}else alert('Nhiệt độ phải lớn hơn -273 độ')">
+    Nhập nhiệt độ C
+</button>
+<button onclick="alert('Nhiệt độ đã nhập:'+ tem3.toc)"> Độ C</button>
+<button onclick="alert('Độ F tương ứng:'+ tem3.tof)">Độ F</button>
+<button onclick="alert('Độ K tương ứng:'+ tem3.tok)"> Độ K</button>
+<script src="temper.js"></script>
+</body>
+</html>
